@@ -4,10 +4,6 @@
     <title>Categories on NTBBloodbath</title>
     <link>https://ntbbloodbath.github.io/categories/</link>
     <description>Recent content in Categories on NTBBloodbath</description>
-    <image>
-      <url>https://ntbbloodbath.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://ntbbloodbath.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
-    </image>
     <generator>Hugo -- gohugo.io</generator><atom:link href="https://ntbbloodbath.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
