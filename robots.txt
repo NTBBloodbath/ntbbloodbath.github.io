@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://ntbbloodbath.github.io/sitemap.xml

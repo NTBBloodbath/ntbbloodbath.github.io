@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Tags on NTBBloodbath</title>
+    <link>https://ntbbloodbath.github.io/tags/</link>
+    <description>Recent content in Tags on NTBBloodbath</description>
+    <image>
+      <url>https://ntbbloodbath.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://ntbbloodbath.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Wed, 22 Dec 2021 18:06:44 -0400</lastBuildDate><atom:link href="https://ntbbloodbath.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>lua</title>
+      <link>https://ntbbloodbath.github.io/tags/lua/</link>
+      <pubDate>Wed, 22 Dec 2021 18:06:44 -0400</pubDate>
+      
+      <guid>https://ntbbloodbath.github.io/tags/lua/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>neovim</title>
+      <link>https://ntbbloodbath.github.io/tags/neovim/</link>
+      <pubDate>Wed, 22 Dec 2021 18:06:44 -0400</pubDate>
+      
+      <guid>https://ntbbloodbath.github.io/tags/neovim/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
