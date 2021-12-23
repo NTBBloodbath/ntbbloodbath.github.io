@@ -1,0 +1,98 @@
+baseURL: "https://ntbbloodbath.github.io/"
+title: NTBBloodbath
+paginate: 5
+theme: PaperMod
+enableEmoji: true
+
+enableRobotsTXT: true
+buildDrafts: true
+buildFuture: false
+buildExpired: false
+
+minify:
+    disableXML: true
+    minifyOutput: true
+
+params:
+    env: production
+    title: NTBBloodbath
+    description: "Welcome to my blog, here you will find posts about Linux, Neovim, Lua and C development"
+    keywords: [Blog, Neovim, Lua, C]
+    author: NTBBloodbath
+    images: ["<link or path of image for opengraph, twitter-cards>"]
+    DateFormat: "January 2, 2006"
+    defaultTheme: auto # dark, light
+    disableThemeToggle: false
+
+    ShowReadingTime: true
+    ShowShareButtons: false
+    ShowPostNavLinks: true
+    ShowBreadCrumbs: true
+    ShowCodeCopyButtons: true
+    disableSpecial1stPost: false
+    disableScrollToTop: false
+    comments: false
+    hidemeta: false
+    hideSummary: false
+    showtoc: true
+    tocopen: false
+
+    assets:
+        # disableHLJS: true # to disable highlight.js
+        # disableFingerprinting: true
+        favicon: "https://avatars.githubusercontent.com/u/36456999?v=4"
+
+    label:
+        text: "NTBBloodbath"
+
+    # home-info mode
+    homeInfoParams:
+        Title: "Hey, I'm NTBBloodbath"
+        Content: "Welcome to my blog!"
+
+    socialIcons:
+        - name: reddit
+          url: "https://reddit.com/u/NTBBloodbath"
+        - name: discord
+          url: "https://discord.com/users/387036585033465856"
+        - name: github
+          url: "https://github.com/NTBBloodbath"
+
+    cover:
+        hidden: true # hide everywhere but not in structured data
+        hiddenInList: true # hide on list pages and home
+        hiddenInSingle: true # hide on single page
+
+    editPost:
+        URL: "https://github.com/NTBBloodbath/ntbbloodbath.github.io/content"
+        Text: "Suggest Changes"
+        appendFilePath: true
+
+    # for search
+    # https://fusejs.io/api/options.html
+    fuseOpts:
+        isCaseSensitive: false
+        shouldSort: true
+        location: 0
+        distance: 1000
+        threshold: 0.4
+        minMatchCharLength: 0
+        keys: ["title", "permalink", "summary", "content"]
+menu:
+    main:
+        - identifier: categories
+          name: categories
+          url: /categories/
+          weight: 10
+        - identifier: tags
+          name: tags
+          url: /tags/
+          weight: 20
+
+# Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
+pygmentsUseClasses: true
+markup:
+    highlight:
+        anchorLineNos: true
+        codeFences: true
+        guessSyntax: true
