@@ -19,7 +19,7 @@ params:
     description: "Welcome to my blog, here you will find posts about Linux, Neovim, Lua and C development"
     keywords: [Blog, Neovim, Lua, C]
     author: NTBBloodbath
-    images: ["<link or path of image for opengraph, twitter-cards>"]
+    # images: ["<link or path of image for opengraph, twitter-cards>"]
     DateFormat: "January 2, 2006"
     defaultTheme: auto # dark, light
     disableThemeToggle: false
